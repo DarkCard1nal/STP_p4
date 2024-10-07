@@ -14,7 +14,7 @@ arr = [	['192.168.1.1', true],
 		['10.5.4.', false],
 		['10.00.3.1', false],
 		['1', false],
-		['0.0.0.0', true],
+		[nil, false],
 		['0.0.0', false],
 		['1.8v6.1.1', false]]
 # rubocop:enable Layout/SpaceInsideArrayLiteralBrackets, Layout/ArrayAlignment

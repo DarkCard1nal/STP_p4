@@ -8,6 +8,8 @@ class VerifierIPv4
 
 	# Static method checks octet for correctness, returns true
 	def self.verify(address)
+		return false if address.nil?
+
 		address = address.strip.split('.')
 
 		return false if address.size != 4
