@@ -2,6 +2,7 @@
 
 module Constants
 	AUTHOR = '"Verifier IPv4" by Shkilnyi V. CS31'
-	ERROR = 'ERROR!'
-	INVALID_INPUT = "#{ERROR} Invalid input. Check that the input is correct!".freeze
+	ENTER_INPUT = 'Enter the IPv4 address:'
+	RESULT = 'IPv4 address is verified.'
+	INVALID_INPUT = 'The IPv4 address is not verified, is not canonical, or contains errors.'
 end
